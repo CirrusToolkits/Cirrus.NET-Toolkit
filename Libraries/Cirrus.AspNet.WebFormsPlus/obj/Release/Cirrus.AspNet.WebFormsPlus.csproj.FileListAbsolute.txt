@@ -1,0 +1,5 @@
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.AspNet.WebFormsPlus\bin\Release\Cirrus.AspNet.WebFormsPlus.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.AspNet.WebFormsPlus\bin\Release\Cirrus.AspNet.WebFormsPlus.pdb
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.AspNet.WebFormsPlus\obj\Release\Cirrus.AspNet.WebFormsPlus.csprojResolveAssemblyReference.cache
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.AspNet.WebFormsPlus\obj\Release\Cirrus.AspNet.WebFormsPlus.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.AspNet.WebFormsPlus\obj\Release\Cirrus.AspNet.WebFormsPlus.pdb
