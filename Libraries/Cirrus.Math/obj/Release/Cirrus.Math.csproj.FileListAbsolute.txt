@@ -1,0 +1,4 @@
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Math\bin\Release\Cirrus.Math.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Math\bin\Release\Cirrus.Math.pdb
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Math\obj\Release\Cirrus.Math.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Math\obj\Release\Cirrus.Math.pdb

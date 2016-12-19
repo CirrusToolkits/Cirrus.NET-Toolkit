@@ -1,0 +1,4 @@
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Calendar\bin\Release\Cirrus.Calendar.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Calendar\bin\Release\Cirrus.Calendar.pdb
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Calendar\obj\Release\Cirrus.Calendar.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Calendar\obj\Release\Cirrus.Calendar.pdb

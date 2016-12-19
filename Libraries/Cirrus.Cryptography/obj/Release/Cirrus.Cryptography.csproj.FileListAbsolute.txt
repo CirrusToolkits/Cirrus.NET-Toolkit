@@ -1,0 +1,4 @@
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Cryptography\bin\Release\Cirrus.Cryptography.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Cryptography\bin\Release\Cirrus.Cryptography.pdb
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Cryptography\obj\Release\Cirrus.Cryptography.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Cryptography\obj\Release\Cirrus.Cryptography.pdb

@@ -1,0 +1,4 @@
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Disk\bin\Release\Cirrus.Disk.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Disk\bin\Release\Cirrus.Disk.pdb
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Disk\obj\Release\Cirrus.Disk.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Disk\obj\Release\Cirrus.Disk.pdb
