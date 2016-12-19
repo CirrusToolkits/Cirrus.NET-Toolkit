@@ -1,0 +1,6 @@
+﻿Library Creation Procedure
+
+1. Add new project.
+2. Select Windows->Class Library.
+3. Name: Cirrus.LibraryName
+   Location: select Libraries folder in solution. 

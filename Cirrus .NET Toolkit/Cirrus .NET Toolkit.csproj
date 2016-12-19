@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5610423B-26C1-49BE-B4BB-B4D56D059AF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cirrus.NET_Toolkit</RootNamespace>
+    <AssemblyName>Cirrus.NET_Toolkit</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ConsoleControl">
+      <HintPath>..\..\..\..\_.NET\ConsoleControl\ConsoleControlSample\Console Control Sample\Windows Forms Sample\ConsoleControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Libraries\Cirrus.Calendar\Cirrus.Calendar.csproj">
+      <Project>{3fc7cb77-4d2d-4413-a578-5ddf7bd38884}</Project>
+      <Name>Cirrus.Calendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Cryptography\Cirrus.Cryptography.csproj">
+      <Project>{dcbdd12b-e537-4015-b276-645e1eac3639}</Project>
+      <Name>Cirrus.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Disk\Cirrus.Disk.csproj">
+      <Project>{342e3127-ced4-4109-a00d-561c05fff35c}</Project>
+      <Name>Cirrus.Disk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Math\Cirrus.Math.csproj">
+      <Project>{064c2d63-a63a-4b4b-a119-d5ebb273976d}</Project>
+      <Name>Cirrus.Math</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Net.HTMLwriter\Cirrus.Net.HTMLwriter.csproj">
+      <Project>{368b0255-78dc-498d-be4c-537b1186f5a0}</Project>
+      <Name>Cirrus.Net.HTMLwriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Net.HTML\Cirrus.Net.HTML.csproj">
+      <Project>{e958e03e-fdd0-4f53-993e-786516606091}</Project>
+      <Name>Cirrus.Net.HTML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Net\Cirrus.Net.csproj">
+      <Project>{1b20bf47-4b7f-41b5-8226-63a12d48e7eb}</Project>
+      <Name>Cirrus.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.PDF\Cirrus.PDF.csproj">
+      <Project>{ba8f34fa-5923-4a35-bad5-2498356ece7a}</Project>
+      <Name>Cirrus.PDF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Randomize\Cirrus.Randomize.csproj">
+      <Project>{535d9908-8b96-48b2-b7bf-2b52ddd5b513}</Project>
+      <Name>Cirrus.Randomize</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.String\Cirrus.String.csproj">
+      <Project>{aa1532ac-b82f-43b3-9205-209efe4aab45}</Project>
+      <Name>Cirrus.String</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.SysInfo\Cirrus.SysInfo.csproj">
+      <Project>{bd96b752-6692-4231-95c1-c4784ab5d460}</Project>
+      <Name>Cirrus.SysInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Time\Cirrus.Time.csproj">
+      <Project>{92f6af21-6a76-4019-b671-fbfb3dc82eb6}</Project>
+      <Name>Cirrus.Time</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\Cirrus.Windows\Cirrus.Windows.csproj">
+      <Project>{e27db65a-d6fe-4acb-b556-1ecfed2b96dc}</Project>
+      <Name>Cirrus.Windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library Creation Procedure.txt" />
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
