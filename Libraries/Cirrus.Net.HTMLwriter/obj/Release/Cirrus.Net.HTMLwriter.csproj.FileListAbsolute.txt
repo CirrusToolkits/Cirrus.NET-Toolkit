@@ -1,0 +1,4 @@
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Net.HTMLwriter\bin\Release\Cirrus.Net.HTMLwriter.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Net.HTMLwriter\bin\Release\Cirrus.Net.HTMLwriter.pdb
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Net.HTMLwriter\obj\Release\Cirrus.Net.HTMLwriter.dll
+D:\Projects\Libraries\Cirrus\Cirrus .NET Toolkit\Cirrus .NET Toolkit\Libraries\Cirrus.Net.HTMLwriter\obj\Release\Cirrus.Net.HTMLwriter.pdb
